@@ -19,7 +19,7 @@ jobs:
       matrix:
         os: [ubuntu-22.04]
         qt-ver: [5.15.2]
-        qt-arch-install: [gcc_64]
+        qt-arch-install: [aarch64]
         gcc-arch: [arm64]
     env:
       target-name: QtScrcpy
