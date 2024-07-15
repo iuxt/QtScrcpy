@@ -20,7 +20,7 @@ jobs:
         os: [ubuntu-22.04]
         qt-ver: [5.15.2]
         qt-arch-install: [gcc_64]
-        gcc-arch: [x64]
+        gcc-arch: [arm64]
     env:
       target-name: QtScrcpy
       qt-install-path: ${{ github.workspace }}/${{ matrix.qt-ver }}
